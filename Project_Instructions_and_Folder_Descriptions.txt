@@ -1,0 +1,36 @@
+
+Project Folder Structure Usage Instructions:
+
+- Project Name: The root folder for the entire project. Every document, data file, or script should be placed within the appropriate subfolder inside this directory.
+
+  - Abstract:
+    Contains summaries of the project's aim, methodology, results, and conclusions.
+
+  - Archive:
+    Holds records of old data, code, and documents for historical reference.
+
+  - Code:
+    Includes scripts and programming files used for analysis and data processing.
+    Subfolders:
+      - R Code: For R scripts and functions. Initiate an R workspace here and set it as the working directory.
+		The R Code folder includes a seed.Rmd file to use as a starting point for R markdown documents.
+      - SAS Code: For SAS scripts and programs.
+    
+
+  - External Data:
+    Comprises data sourced from outside the project, such as public databases. This includes DPP/DPPOS data.
+
+  - Manuscript:
+    Drafts, figures, and final versions of the paper or report being prepared.
+
+  - Proposal&SAP:
+    Proposal documents and statistical analysis plans outlining study designs and methods.
+
+  - Resources:
+    Any supporting materials, templates, guidelines, or documents needed for the project.
+
+  - Results:
+    Output files like tables, charts, and statistics from the data analysis.
+
+Note: Ensure to maintain a consistent naming convention for all files and folders within the project directory to facilitate easy navigation and comprehension for all team members. Back up your work regularly and update the Archive folder with previous versions of your files for reference.
+
